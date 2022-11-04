@@ -67,7 +67,7 @@ public class ClienteController {
 			return ResponseEntity.notFound().build();
 		}
 		
-		catalogoClienteService.excluir(clienteId);
+		catalogoClienteService.excluir(clientId);
 		
 		return ResponseEntity.noContent().build();
 	}
